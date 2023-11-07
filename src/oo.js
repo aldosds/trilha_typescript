@@ -5,12 +5,12 @@ class Pessoa {
         this.nome = nome;
         this.renda = renda;
     }
-    // Metodo
+    // Método
     dizOla() {
         return `${this.nome} disse oi`;
     }
 }
-// Criando Conta Bancaria
+// Criando Conta Bancária
 class ContaBancaria {
     constructor(numeroDaconta) {
         this.saldo = 0;
