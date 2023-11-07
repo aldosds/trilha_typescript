@@ -8,4 +8,6 @@ var casting;
     idade.forEach(x => {
         console.log(x);
     });
+    // Convertendo um número para o tipo string
+    let nome = 35;
 })(casting || (casting = {}));
